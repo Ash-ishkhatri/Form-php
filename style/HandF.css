@@ -1,0 +1,116 @@
+
+
+.wrapper{
+    background-color:black;
+    color:white;
+    padding:0em 7em;
+    
+}
+
+
+.wrapper ul{
+    display:grid;
+    grid-template-columns:1fr 1fr ;
+    grid-column-gap:20px;
+   
+    
+}
+
+.wrapper ul li {
+    list-style:none;
+    text-align:center;
+    padding:10px 0px;
+    transition:0.5s;
+    
+   
+}
+
+.wrapper ul  a{
+    text-decoration:none;
+    color:white;
+    font-weight:700;
+}
+
+
+
+.wrapper ul li:hover{
+    background-color:grey;
+}
+
+.signup-form{
+    border:1px solid black;
+    width:20em;
+    margin:0 auto;
+    padding:10px;
+    text-align:center;
+}
+
+.signup-form form{
+    display:flex;
+    flex-direction:column;
+
+}
+
+.signup-form form input , button{
+    padding:10px 0px;border:none;
+    margin-bottom:10px;
+
+
+}
+
+button{
+    width:10em;
+    margin:0 auto;
+    
+}
+
+::placeholder{
+    padding-left:10px;
+}
+
+
+.footer{
+    height:30px;
+    width:100%;
+    background-color:black;
+    margin-top:100px;
+
+}
+
+table{
+    margin:0 auto;
+    padding:5px;
+    background-color:#ffffff;
+    border-collapse: collapse;
+    
+   
+}
+.table{
+    transform:scale(0.8);
+    
+}
+
+.button-box{
+    border:none;
+    background-color:#ffffff;
+    
+}
+
+button{
+    color:white;
+    
+}
+
+td , th{
+    padding:3px 10px;
+    text-align:center;
+}
+
+tr:nth-child(even){
+    background-color:rgb(226, 226, 226);
+}
+
+h2{
+    text-align:Center;
+}
+
